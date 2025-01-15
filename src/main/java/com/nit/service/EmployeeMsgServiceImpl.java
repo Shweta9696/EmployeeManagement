@@ -45,9 +45,9 @@ public class EmployeeMsgServiceImpl implements IEmployeeMsgService {
 		if(opt.isPresent()) {
 			
 			empRepo.save(emp);
-			return emp.getEmpno()+" employee is update";
+			return emp.getEmpno()+" Employee is update";
 		}
-		return emp.getEmpno()+"employee is not found for update";
+		return emp.getEmpno()+" Employee is not found for update";
 	}
 	@Override
 	public String deleteEmployeeById(int id) {

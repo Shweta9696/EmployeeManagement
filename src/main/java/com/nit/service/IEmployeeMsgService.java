@@ -11,6 +11,4 @@ public interface IEmployeeMsgService
 	public Employee fetchEmployeeById(int id);
 	public String editEmployee(Employee emp);
 	public String deleteEmployeeById(int id);
-	
-
-}
+	}
